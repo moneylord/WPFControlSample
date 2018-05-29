@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ControlSampleWPF.Resources">
+
+    <!--<local:PaletteManager x:Key="paletteManager" />-->
+
+    <!-- Static Color -->
+    <SolidColorBrush x:Key="DefaultTextColor" Color="#FFFFFF" />
+
+    <SolidColorBrush x:Key="Gray0" Color="#f8f9fb" />
+    <SolidColorBrush x:Key="Gray1" Color="#f0f3f6" />
+    <SolidColorBrush x:Key="Gray2" Color="#e9ecf0" />
+    <SolidColorBrush x:Key="Gray3" Color="#dee2e7" />
+    <SolidColorBrush x:Key="Gray4" Color="#cdd5dc" />
+    <SolidColorBrush x:Key="Gray5" Color="#acb6be" />
+    <SolidColorBrush x:Key="Gray6" Color="#6e777d" />
+    <SolidColorBrush x:Key="Gray7" Color="#4c535b" />
+    <SolidColorBrush x:Key="Gray8" Color="#373f46" />
+    <SolidColorBrush x:Key="Gray9" Color="#25292f" />
+
+    <SolidColorBrush x:Key="Label1" Color="#d0346d" />
+    <SolidColorBrush x:Key="Label2" Color="#ab42c5" />
+    <SolidColorBrush x:Key="Label3" Color="#704ddf" />
+    <SolidColorBrush x:Key="Label4" Color="#2f7cd2" />
+    <SolidColorBrush x:Key="Label5" Color="#2998ab" />
+    <SolidColorBrush x:Key="Label6" Color="#28a579" />
+    <SolidColorBrush x:Key="Label7" Color="#f19e2c" />
+    <SolidColorBrush x:Key="Label8" Color="#f2671e" />
+
+    <SolidColorBrush x:Key="Negative" Color="#d42e6c" />
+    <SolidColorBrush x:Key="NegativeBG" Color="#f7d5e2" />
+
+    <SolidColorBrush x:Key="Positive" Color="#08a778" />
+    <SolidColorBrush x:Key="PositiveBG" Color="#d3ede4" />
+
+    <SolidColorBrush x:Key="Warnning" Color="#f49f11" />
+    <SolidColorBrush x:Key="WarnningBG" Color="#fdedd4" />
+
+    <SolidColorBrush x:Key="Info" Color="#2b79d5" />
+    <SolidColorBrush x:Key="InfoBG" Color="#dcedf6" />
+
+    <!-- Theme Color -->
+    <SolidColorBrush x:Key="A0" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.A0}" />
+    <SolidColorBrush x:Key="A1" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.A1}" />
+    <SolidColorBrush x:Key="S1" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.S1}" />
+    <SolidColorBrush x:Key="P0" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.P0}" />
+    <SolidColorBrush x:Key="P1" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.P1}" />
+    <SolidColorBrush x:Key="P2" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.P2}" />
+    <SolidColorBrush x:Key="A1_55" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.A1_55}" />
+    <SolidColorBrush x:Key="A1_85" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.A1_85}" />
+    <SolidColorBrush x:Key="P1_55" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.P1_55}" />
+    <SolidColorBrush x:Key="P1_95" Color="{Binding Source={StaticResource paletteManager}, Path=Palette.P1_95}" />
+</ResourceDictionary>
